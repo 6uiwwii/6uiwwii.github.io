@@ -1,4 +1,6 @@
-* { outline:1px solid red; } 
+* {
+    outline: 1px solid red;
+}
 
 
 body,
@@ -43,12 +45,12 @@ html {
 
 .name-web {
     text-align: center;
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
 
 .logo-content {
     width: 30rem;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
 
@@ -59,29 +61,28 @@ html {
 
 .blog {
     display: flex;
-    justify-content: space-around; 
-    gap: 2rem; 
+    justify-content: space-around;
+    gap: 2rem;
     padding: 1rem;
     flex-wrap: wrap;
 }
 
 .content {
     text-align: center;
-    flex: 1; /
-    min-width: 300px; 
+    flex: 1;/ min-width: 300rem;
 }
 
 .img-lis {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
-    align-items: flex-start; 
-    gap: 1rem; 
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
 .box-for-img {
-    width: 15rem; 
+    width: 15rem;
     max-width: 100%;
 }
 
@@ -90,3 +91,15 @@ html {
     height: auto;
 }
 
+.link-box {
+    width: 100%;
+    height: 120px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
