@@ -1,0 +1,92 @@
+* { outline:1px solid red; } 
+
+
+body,
+html {
+    background-color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header .container {
+    background-color: #5E8BB3;
+    height: 5rem;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-header {
+    width: 5rem;
+    height: auto;
+}
+
+
+.lis-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 2rem;
+}
+
+.txt-nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.name-web {
+    text-align: center;
+    padding: 2rem 0; 
+}
+
+.logo-content {
+    width: 30rem;
+    max-width: 100%; 
+    height: auto;
+}
+
+.about-project-content {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-around; 
+    gap: 2rem; 
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.content {
+    text-align: center;
+    flex: 1; /
+    min-width: 300px; 
+}
+
+.img-lis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    gap: 1rem; 
+    flex-wrap: wrap;
+}
+
+.box-for-img {
+    width: 15rem; 
+    max-width: 100%;
+}
+
+.box-for-img img {
+    width: 100%;
+    height: auto;
+}
+
