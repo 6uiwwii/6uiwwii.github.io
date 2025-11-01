@@ -30,11 +30,13 @@
             <h1 id="about-project">About Project</h1>
 
             <div class="description-box">
-                <p>This project is about measuring temperature and humidity using ...</p>
+                <p>โปรเจคนี้เป็นการนำ Arduino R4 WiFi มาเชื่อมต่อกับ Sensor DHT22 AM2032 เพือรับค่าอุณหภูมิและความชื้น</p>
+                <p>จากนั้นนำไปแสดงบนบนเว็บไซต์ TEMPUI ที่มีฟังก์ชันการแสดงผลข้อมูลอุณหภูมิและความชื้นในหน้า Dashboard </p>
+                <p>และมีการพยากรณ์อากาศใน 7 ถัดไป รวมถึงฟังก์ชันการแจ้งเตือนถึงอุณหภูมิที่เปลี่ยนแปลงไปแบบ Real-time </p>
             </div>
 
-        </div>
 
+        </div>
         <div class="blog">
 
             <div class="content">
@@ -45,13 +47,22 @@
 
                     <div class="box-for-img">
 
-                        <img src="/assets/DHT22_AM2032.png" class="hardware-img">
+                        <div class="hardware-item">
+                            <img src="/assets/DHT22_AM2032.png" class="hardware-img">
+                            <h3 class="hardware-title">DHT22 AM2032</h3>
+                            <p class="hardware-description">ใช้สำหรับรับค่าอุณหภูมิ</p>
+                        </div>
 
                     </div>
 
                     <div class="box-for-img">
 
-                        <img src="/assets/arduino.png" class="hardware-img">
+                        <div class="hardware-item">
+                            <img src="/assets/arduino.png" class="hardware-img">
+                            <h3 class="hardware-title">Arduino UNO R4 WiFi</h3>
+                            <p class="hardware-description">ใช้รับข้อมูลอุณหภูมิและความชื้นจากDHT22 AM2032</p>
+                        </div>
+                        
 
                     </div>
 
@@ -68,13 +79,24 @@
 
                     <div class="box-for-img">
 
-                        <img src="assets/supabase.png" class="img">
+                        
 
+                        <div class="hardware-item">
+                            <img src="assets/supabase.png" class="img">
+                            <h3 class="hardware-title">Supabase</h3>
+                            <p class="hardware-description">ใช้ทำระบบ log-in ในหน้า web</p>
+                        </div>
+                        
                     </div>
 
                     <div class="box-for-img">
 
+                        <div class="hardware-item">
+                            
                         <img src="/assets/InfluxDB.png" class="img">
+                            <h3 class="hardware-title">InfluxDB</h3>
+                            <p class="hardware-description">เก็บข้อมูลอุณหภูมิ ความชื้น ที่ส่งมาจาก Arduino R4 WiFi</p>
+                        </div>
 
                     </div>
 
@@ -94,7 +116,13 @@
 
                     <div class="box-for-img">
 
+                        <div class="hardware-item">
+                            
                         <img src="/assets/Node_js.png" class="img">
+                            <h3 class="hardware-title">Node JS</h3>
+                            <p class="hardware-description">Forntend Backend</p>
+                        </div>
+                        
 
                     </div>
 
@@ -112,8 +140,14 @@
 
                     <div class="box-for-img">
 
+                        <div class="hardware-item">
+                            
                         <img src="assets/openmeteo.png" class="img">
 
+                            <h3 class="hardware-title">Open-Metro</h3>
+                            <p class="hardware-description">รับข้อมูลพยากรณ์อากาศ</p>
+                        </div>
+                        
                     </div>
 
                 </div>
